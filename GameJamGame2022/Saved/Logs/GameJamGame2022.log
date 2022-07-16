@@ -12910,3 +12910,701 @@ Script call stack:
 [2022.07.16-07.41.42:209][928]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2022.07.16-07.41.42:213][928]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
 [2022.07.16-07.41.42:246][929]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2022.07.16-07.42.10:011][199]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2022.07.16-07.42.10:019][199]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/L_GridTest_Auto3
+[2022.07.16-07.42.10:019][199]LogSavePackage: Moving '../../../../../Users/Kitty/Desktop/SwagteamGMTK2022/GameJamGame2022/Saved/L_GridTest_Auto30590F4F143F0AB763BEBC080643A2C88.tmp' to '../../../../../Users/Kitty/Desktop/SwagteamGMTK2022/GameJamGame2022/Saved/Autosaves/Game/Levels/L_GridTest_Auto3.umap'
+[2022.07.16-07.42.10:026][199]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/L_GridTest' took 0.057
+[2022.07.16-07.42.10:026][199]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.057
+[2022.07.16-07.42.30:133][317]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.07.16-07.42.30:139][317]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.16-07.42.30:139][317]PIE: New page: PIE session: L_GridTest (16 jul. 2022 11:42:30)
+[2022.07.16-07.42.30:139][317]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_GridTest
+[2022.07.16-07.42.30:141][317]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001727s)
+[2022.07.16-07.42.30:141][317]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_GridTest.L_GridTest to /Game/Levels/UEDPIE_0_L_GridTest.L_GridTest (0.001793s)
+[2022.07.16-07.42.30:141][317]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.07.16-07.42.30:141][317]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.07.16-07.42.30:141][317]LogAIModule: Creating AISystem for world L_GridTest
+[2022.07.16-07.42.30:141][317]LogPlayLevel: PIE: World Init took: (0.000700s)
+[2022.07.16-07.42.30:183][317]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2022.07.16-07.42.30:184][317]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2022.07.16-07.42.30:184][317]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.07.16-07.42.30:184][317]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.07.16-07.42.30:184][317]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.07.16-07.42.30:185][317]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.07.16-07.42.30:185][317]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.07.16-07.42.30:185][317]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.07.16-07.42.30:185][317]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.07.16-07.42.30:185][317]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.07.16-07.42.30:185][317]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.07.16-07.42.30:185][317]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.07.16-07.42.30:185][317]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.07.16-07.42.30:187][317]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.07.16-07.42.30:288][317]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.07.16-07.42.30:288][317]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.07.16-07.42.30:288][317]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.07.16-07.42.30:288][317]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.07.16-07.42.30:289][317]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2022.07.16-07.42.30:289][317]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2022.07.16-07.42.30:290][317]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2022.07.16-07.42.30:290][317]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2022.07.16-07.42.30:290][317]LogInit: FAudioDevice initialized.
+[2022.07.16-07.42.30:290][317]LogAudio: Display: Audio Device (ID: 25) registered with world 'L_GridTest'.
+[2022.07.16-07.42.30:300][317]LogLoad: Game class is 'BP_GameplayGamemode_C'
+[2022.07.16-07.42.30:301][317]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_GridTest.L_GridTest up for play (max tick rate 60) at 2022.07.16-09.42.30
+[2022.07.16-07.42.30:301][317]LogWorld: Bringing up level for play took: 0.000408
+[2022.07.16-07.42.30:302][317]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2022.07.16-07.42.30:332][317]PIE: Server logged in
+[2022.07.16-07.42.30:332][317]PIE: Play in editor total start time 0,193 seconds.
+[2022.07.16-07.42.31:844][401]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.16-07.42.31:844][401]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_GridTest
+[2022.07.16-07.42.31:844][401]LogWorld: UWorld::CleanupWorld for L_GridTest, bSessionEnded=true, bCleanupResources=true
+[2022.07.16-07.42.31:844][401]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.16-07.42.31:859][401]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.16-07.42.31:864][401]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.16-07.42.31:906][401]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.16-07.42.31:907][401]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2022.07.16-07.42.31:908][401]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2022.07.16-07.42.31:917][401]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2022.07.16-07.42.31:951][402]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2022.07.16-07.42.34:561][553]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.07.16-07.42.34:566][553]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.16-07.42.34:566][553]PIE: New page: PIE session: L_GridTest (16 jul. 2022 11:42:34)
+[2022.07.16-07.42.34:566][553]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_GridTest
+[2022.07.16-07.42.34:568][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001553s)
+[2022.07.16-07.42.34:568][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_GridTest.L_GridTest to /Game/Levels/UEDPIE_0_L_GridTest.L_GridTest (0.001623s)
+[2022.07.16-07.42.34:568][553]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.07.16-07.42.34:568][553]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.07.16-07.42.34:568][553]LogAIModule: Creating AISystem for world L_GridTest
+[2022.07.16-07.42.34:569][553]LogPlayLevel: PIE: World Init took: (0.000707s)
+[2022.07.16-07.42.34:611][553]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2022.07.16-07.42.34:612][553]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2022.07.16-07.42.34:612][553]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.07.16-07.42.34:612][553]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.07.16-07.42.34:612][553]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.07.16-07.42.34:612][553]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.07.16-07.42.34:612][553]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.07.16-07.42.34:612][553]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.07.16-07.42.34:612][553]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.07.16-07.42.34:612][553]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.07.16-07.42.34:613][553]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.07.16-07.42.34:613][553]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.07.16-07.42.34:613][553]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.07.16-07.42.34:614][553]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.07.16-07.42.34:715][553]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.07.16-07.42.34:716][553]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.07.16-07.42.34:716][553]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.07.16-07.42.34:716][553]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.07.16-07.42.34:717][553]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2022.07.16-07.42.34:717][553]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2022.07.16-07.42.34:719][553]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2022.07.16-07.42.34:719][553]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2022.07.16-07.42.34:719][553]LogInit: FAudioDevice initialized.
+[2022.07.16-07.42.34:719][553]LogAudio: Display: Audio Device (ID: 26) registered with world 'L_GridTest'.
+[2022.07.16-07.42.34:728][553]LogLoad: Game class is 'BP_GameplayGamemode_C'
+[2022.07.16-07.42.34:728][553]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_GridTest.L_GridTest up for play (max tick rate 60) at 2022.07.16-09.42.34
+[2022.07.16-07.42.34:728][553]LogWorld: Bringing up level for play took: 0.000437
+[2022.07.16-07.42.34:730][553]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2022.07.16-07.42.34:761][553]PIE: Server logged in
+[2022.07.16-07.42.34:761][553]PIE: Play in editor total start time 0,196 seconds.
+[2022.07.16-07.42.44:593][138]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.16-07.42.44:593][138]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_GridTest
+[2022.07.16-07.42.44:594][138]LogWorld: UWorld::CleanupWorld for L_GridTest, bSessionEnded=true, bCleanupResources=true
+[2022.07.16-07.42.44:594][138]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.16-07.42.44:606][138]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.16-07.42.44:612][138]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.16-07.42.44:652][138]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.16-07.42.44:652][138]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2022.07.16-07.42.44:653][138]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2022.07.16-07.42.44:663][138]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2022.07.16-07.42.44:685][139]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2022.07.16-07.42.46:748][257]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2022.07.16-07.42.46:755][257]LogSavePackage: Moving output files for package: /Game/Levels/L_GridTest
+[2022.07.16-07.42.46:756][257]LogSavePackage: Moving '../../../../../Users/Kitty/Desktop/SwagteamGMTK2022/GameJamGame2022/Saved/L_GridTestC6A7DBEC44CEF5D402ADACB2BA99AA97.tmp' to '../../../../../Users/Kitty/Desktop/SwagteamGMTK2022/GameJamGame2022/Content/Levels/L_GridTest.umap'
+[2022.07.16-07.42.46:767][257]LogFileHelpers: No new changes to save!
+[2022.07.16-07.42.46:781][257]AssetCheck: New page: Asset Save: L_GridTest
+[2022.07.16-07.42.46:781][257]LogContentValidation: Display: Validating World /Game/Levels/L_GridTest.L_GridTest
+[2022.07.16-07.49.05:981][603]LogSlate: Window 'Color Picker' being destroyed
+[2022.07.16-07.49.33:420][125]LogSlate: Window 'Color Picker' being destroyed
+[2022.07.16-07.54.26:925][846]BlueprintLog: New page: Compile BP_Grid
+[2022.07.16-07.54.27:020][846]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2022.07.16-07.54.27:073][846]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Grid/BP_Grid" FILE="../../../../../Users/Kitty/Desktop/SwagteamGMTK2022/GameJamGame2022/Content/Blueprints/Grid/BP_Grid.uasset" SILENT=true
+[2022.07.16-07.54.27:095][846]LogSavePackage: Moving output files for package: /Game/Blueprints/Grid/BP_Grid
+[2022.07.16-07.54.27:096][846]LogSavePackage: Moving '../../../../../Users/Kitty/Desktop/SwagteamGMTK2022/GameJamGame2022/Saved/BP_GridB8E042A6461FC841B4993EA8AF155043.tmp' to '../../../../../Users/Kitty/Desktop/SwagteamGMTK2022/GameJamGame2022/Content/Blueprints/Grid/BP_Grid.uasset'
+[2022.07.16-07.54.27:112][846]AssetCheck: New page: Asset Save: BP_Grid
+[2022.07.16-07.54.27:112][846]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Grid/BP_Grid.BP_Grid
+[2022.07.16-07.55.19:962][ 14]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.07.16-07.55.19:968][ 14]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.07.16-07.55.19:977][ 14]LogPlayLevel: [PlayLevel] Compiling BP_GridCell before play...
+[2022.07.16-07.55.20:082][ 14]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Grid/BP_GridCell" FILE="../../../../../Users/Kitty/Desktop/SwagteamGMTK2022/GameJamGame2022/Content/Blueprints/Grid/BP_GridCell.uasset" SILENT=true
+[2022.07.16-07.55.20:088][ 14]LogSavePackage: Moving output files for package: /Game/Blueprints/Grid/BP_GridCell
+[2022.07.16-07.55.20:088][ 14]LogSavePackage: Moving '../../../../../Users/Kitty/Desktop/SwagteamGMTK2022/GameJamGame2022/Saved/BP_GridCellAC9C1E9B4BA70748A8E4B98DFA13C89F.tmp' to '../../../../../Users/Kitty/Desktop/SwagteamGMTK2022/GameJamGame2022/Content/Blueprints/Grid/BP_GridCell.uasset'
+[2022.07.16-07.55.20:138][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2022.07.16-07.55.20:140][ 14]LogPlayLevel: PlayLevel: Blueprint regeneration took 172 ms (1 blueprints)
+[2022.07.16-07.55.20:140][ 14]PIE: New page: PIE session: L_GridTest (16 jul. 2022 11:55:20)
+[2022.07.16-07.55.20:140][ 14]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_GridTest
+[2022.07.16-07.55.20:142][ 14]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001758s)
+[2022.07.16-07.55.20:142][ 14]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_GridTest.L_GridTest to /Game/Levels/UEDPIE_0_L_GridTest.L_GridTest (0.001821s)
+[2022.07.16-07.55.20:142][ 14]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.07.16-07.55.20:142][ 14]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.07.16-07.55.20:142][ 14]LogAIModule: Creating AISystem for world L_GridTest
+[2022.07.16-07.55.20:143][ 14]LogPlayLevel: PIE: World Init took: (0.000857s)
+[2022.07.16-07.55.20:184][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2022.07.16-07.55.20:185][ 14]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2022.07.16-07.55.20:185][ 14]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.07.16-07.55.20:185][ 14]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.07.16-07.55.20:185][ 14]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.07.16-07.55.20:185][ 14]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.07.16-07.55.20:185][ 14]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.07.16-07.55.20:185][ 14]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.07.16-07.55.20:185][ 14]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.07.16-07.55.20:185][ 14]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.07.16-07.55.20:186][ 14]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.07.16-07.55.20:186][ 14]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.07.16-07.55.20:186][ 14]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.07.16-07.55.20:187][ 14]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.07.16-07.55.20:301][ 14]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.07.16-07.55.20:301][ 14]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.07.16-07.55.20:301][ 14]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.07.16-07.55.20:301][ 14]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.07.16-07.55.20:302][ 14]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=27
+[2022.07.16-07.55.20:302][ 14]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=27
+[2022.07.16-07.55.20:304][ 14]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2022.07.16-07.55.20:304][ 14]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=27
+[2022.07.16-07.55.20:304][ 14]LogInit: FAudioDevice initialized.
+[2022.07.16-07.55.20:304][ 14]LogAudio: Display: Audio Device (ID: 27) registered with world 'L_GridTest'.
+[2022.07.16-07.55.20:317][ 14]LogLoad: Game class is 'BP_GameplayGamemode_C'
+[2022.07.16-07.55.20:318][ 14]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_GridTest.L_GridTest up for play (max tick rate 60) at 2022.07.16-09.55.20
+[2022.07.16-07.55.20:318][ 14]LogWorld: Bringing up level for play took: 0.000613
+[2022.07.16-07.55.20:320][ 14]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2022.07.16-07.55.20:351][ 14]PIE: Server logged in
+[2022.07.16-07.55.20:352][ 14]PIE: Play in editor total start time 0,385 seconds.
+[2022.07.16-07.55.20:369][ 15]AssetCheck: New page: Asset Save: BP_GridCell
+[2022.07.16-07.55.20:369][ 15]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Grid/BP_GridCell.BP_GridCell
+[2022.07.16-07.55.22:543][139]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.16-07.55.22:543][139]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_GridTest
+[2022.07.16-07.55.22:543][139]LogWorld: UWorld::CleanupWorld for L_GridTest, bSessionEnded=true, bCleanupResources=true
+[2022.07.16-07.55.22:544][139]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.16-07.55.22:553][139]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.16-07.55.22:559][139]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.16-07.55.22:597][139]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.16-07.55.22:598][139]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2022.07.16-07.55.22:599][139]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2022.07.16-07.55.22:607][139]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2022.07.16-07.55.22:630][140]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2022.07.16-07.55.31:522][668]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.07.16-07.55.31:527][668]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.16-07.55.31:527][668]PIE: New page: PIE session: L_GridTest (16 jul. 2022 11:55:31)
+[2022.07.16-07.55.31:527][668]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_GridTest
+[2022.07.16-07.55.31:529][668]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001516s)
+[2022.07.16-07.55.31:529][668]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_GridTest.L_GridTest to /Game/Levels/UEDPIE_0_L_GridTest.L_GridTest (0.001577s)
+[2022.07.16-07.55.31:529][668]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.07.16-07.55.31:529][668]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.07.16-07.55.31:529][668]LogAIModule: Creating AISystem for world L_GridTest
+[2022.07.16-07.55.31:530][668]LogPlayLevel: PIE: World Init took: (0.000780s)
+[2022.07.16-07.55.31:569][668]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2022.07.16-07.55.31:571][668]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2022.07.16-07.55.31:571][668]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.07.16-07.55.31:571][668]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.07.16-07.55.31:571][668]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.07.16-07.55.31:571][668]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.07.16-07.55.31:571][668]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.07.16-07.55.31:571][668]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.07.16-07.55.31:571][668]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.07.16-07.55.31:571][668]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.07.16-07.55.31:571][668]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.07.16-07.55.31:571][668]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.07.16-07.55.31:571][668]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.07.16-07.55.31:573][668]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.07.16-07.55.31:681][668]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.07.16-07.55.31:681][668]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.07.16-07.55.31:682][668]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.07.16-07.55.31:682][668]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.07.16-07.55.31:683][668]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2022.07.16-07.55.31:683][668]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=28
+[2022.07.16-07.55.31:684][668]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2022.07.16-07.55.31:684][668]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2022.07.16-07.55.31:684][668]LogInit: FAudioDevice initialized.
+[2022.07.16-07.55.31:684][668]LogAudio: Display: Audio Device (ID: 28) registered with world 'L_GridTest'.
+[2022.07.16-07.55.31:691][668]LogLoad: Game class is 'BP_GameplayGamemode_C'
+[2022.07.16-07.55.31:692][668]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_GridTest.L_GridTest up for play (max tick rate 60) at 2022.07.16-09.55.31
+[2022.07.16-07.55.31:692][668]LogWorld: Bringing up level for play took: 0.000451
+[2022.07.16-07.55.31:694][668]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2022.07.16-07.55.31:726][668]PIE: Server logged in
+[2022.07.16-07.55.31:727][668]PIE: Play in editor total start time 0,2 seconds.
+[2022.07.16-07.55.35:332][877]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.16-07.55.35:332][877]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_GridTest
+[2022.07.16-07.55.35:333][877]LogWorld: UWorld::CleanupWorld for L_GridTest, bSessionEnded=true, bCleanupResources=true
+[2022.07.16-07.55.35:333][877]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.16-07.55.35:340][877]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.16-07.55.35:346][877]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.16-07.55.35:385][877]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.16-07.55.35:385][877]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2022.07.16-07.55.35:387][877]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2022.07.16-07.55.35:396][877]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2022.07.16-07.55.35:420][878]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2022.07.16-07.55.37:311][991]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.07.16-07.55.37:316][991]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.16-07.55.37:316][991]PIE: New page: PIE session: L_GridTest (16 jul. 2022 11:55:37)
+[2022.07.16-07.55.37:316][991]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_GridTest
+[2022.07.16-07.55.37:318][991]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001655s)
+[2022.07.16-07.55.37:318][991]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_GridTest.L_GridTest to /Game/Levels/UEDPIE_0_L_GridTest.L_GridTest (0.001729s)
+[2022.07.16-07.55.37:318][991]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.07.16-07.55.37:318][991]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.07.16-07.55.37:319][991]LogAIModule: Creating AISystem for world L_GridTest
+[2022.07.16-07.55.37:319][991]LogPlayLevel: PIE: World Init took: (0.000702s)
+[2022.07.16-07.55.37:359][991]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2022.07.16-07.55.37:361][991]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2022.07.16-07.55.37:361][991]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.07.16-07.55.37:361][991]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.07.16-07.55.37:361][991]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.07.16-07.55.37:361][991]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.07.16-07.55.37:361][991]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.07.16-07.55.37:361][991]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.07.16-07.55.37:361][991]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.07.16-07.55.37:361][991]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.07.16-07.55.37:362][991]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.07.16-07.55.37:362][991]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.07.16-07.55.37:362][991]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.07.16-07.55.37:363][991]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.07.16-07.55.37:484][991]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.07.16-07.55.37:484][991]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.07.16-07.55.37:485][991]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.07.16-07.55.37:485][991]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.07.16-07.55.37:485][991]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=29
+[2022.07.16-07.55.37:485][991]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=29
+[2022.07.16-07.55.37:487][991]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=29
+[2022.07.16-07.55.37:487][991]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=29
+[2022.07.16-07.55.37:487][991]LogInit: FAudioDevice initialized.
+[2022.07.16-07.55.37:487][991]LogAudio: Display: Audio Device (ID: 29) registered with world 'L_GridTest'.
+[2022.07.16-07.55.37:501][991]LogLoad: Game class is 'BP_GameplayGamemode_C'
+[2022.07.16-07.55.37:502][991]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_GridTest.L_GridTest up for play (max tick rate 60) at 2022.07.16-09.55.37
+[2022.07.16-07.55.37:502][991]LogWorld: Bringing up level for play took: 0.000490
+[2022.07.16-07.55.37:504][991]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2022.07.16-07.55.37:538][991]PIE: Server logged in
+[2022.07.16-07.55.37:539][991]PIE: Play in editor total start time 0,223 seconds.
+[2022.07.16-07.55.38:893][ 65]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.16-07.55.38:893][ 65]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_GridTest
+[2022.07.16-07.55.38:893][ 65]LogWorld: UWorld::CleanupWorld for L_GridTest, bSessionEnded=true, bCleanupResources=true
+[2022.07.16-07.55.38:893][ 65]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.16-07.55.38:903][ 65]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.16-07.55.38:909][ 65]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.16-07.55.38:949][ 65]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.16-07.55.38:949][ 65]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2022.07.16-07.55.38:950][ 65]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2022.07.16-07.55.38:961][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2022.07.16-07.55.38:983][ 66]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2022.07.16-07.55.45:594][456]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2022.07.16-07.55.45:601][456]LogSavePackage: Moving output files for package: /Game/Levels/L_GridTest
+[2022.07.16-07.55.45:602][456]LogSavePackage: Moving '../../../../../Users/Kitty/Desktop/SwagteamGMTK2022/GameJamGame2022/Saved/L_GridTest95CCB1974866659A6043FC95A0A16646.tmp' to '../../../../../Users/Kitty/Desktop/SwagteamGMTK2022/GameJamGame2022/Content/Levels/L_GridTest.umap'
+[2022.07.16-07.55.45:613][456]LogFileHelpers: No new changes to save!
+[2022.07.16-07.55.45:627][456]AssetCheck: New page: Asset Save: L_GridTest
+[2022.07.16-07.55.45:627][456]LogContentValidation: Display: Validating World /Game/Levels/L_GridTest.L_GridTest
+[2022.07.16-07.55.56:529][103]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Levels/L_GridTest.L_GridTest:PersistentLevel.L_GridTest
+[2022.07.16-07.55.56:530][103]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.07.16-07.56.43:904][867]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.07.16-07.58.18:083][341]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.07.16-07.58.18:090][341]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2022.07.16-07.58.18:095][341]LogContentBrowser: Creating deferred item: NewBlueprint
+[2022.07.16-07.58.18:103][342]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2022.07.16-07.58.21:181][527]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Cube
+[2022.07.16-07.58.21:186][527]LogContentBrowser: End creating deferred item NewBlueprint
+[2022.07.16-07.58.22:683][617]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Grid/BP_Cube.BP_Cube
+[2022.07.16-07.58.22:684][617]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.07.16-07.58.23:075][617]LogViewport: Scene viewport resized to 1215x575, mode Windowed.
+[2022.07.16-07.58.39:402][581]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Grid/BP_Cube" FILE="../../../../../Users/Kitty/Desktop/SwagteamGMTK2022/GameJamGame2022/Content/Blueprints/Grid/BP_Cube.uasset" SILENT=true
+[2022.07.16-07.58.39:405][581]LogSavePackage: Moving output files for package: /Game/Blueprints/Grid/BP_Cube
+[2022.07.16-07.58.39:405][581]LogSavePackage: Moving '../../../../../Users/Kitty/Desktop/SwagteamGMTK2022/GameJamGame2022/Saved/BP_CubeD90BA1D14066ECCF13575B926341063B.tmp' to '../../../../../Users/Kitty/Desktop/SwagteamGMTK2022/GameJamGame2022/Content/Blueprints/Grid/BP_Cube.uasset'
+[2022.07.16-07.58.39:418][581]AssetCheck: New page: Asset Save: BP_Cube
+[2022.07.16-07.58.39:418][581]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Grid/BP_Cube.BP_Cube
+[2022.07.16-07.58.39:900][610]BlueprintLog: New page: Compile BP_Cube
+[2022.07.16-07.58.39:986][610]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2022.07.16-07.58.45:958][962]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.07.16-07.59.03:837][ 17]BlueprintLog: New page: Compile L_GridTest
+[2022.07.16-07.59.03:896][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2022.07.16-07.59.04:000][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2022.07.16-07.59.04:011][ 17]LogSavePackage: Moving output files for package: /Game/Levels/L_GridTest
+[2022.07.16-07.59.04:011][ 17]LogSavePackage: Moving '../../../../../Users/Kitty/Desktop/SwagteamGMTK2022/GameJamGame2022/Saved/L_GridTest8B5BA6B44540003311FB08948B468228.tmp' to '../../../../../Users/Kitty/Desktop/SwagteamGMTK2022/GameJamGame2022/Content/Levels/L_GridTest.umap'
+[2022.07.16-07.59.04:021][ 17]LogFileHelpers: No new changes to save!
+[2022.07.16-07.59.04:021][ 17]LogFileHelpers: Saving map 'L_GridTest' took 0.077
+[2022.07.16-07.59.04:036][ 17]AssetCheck: New page: Asset Save: L_GridTest
+[2022.07.16-07.59.04:036][ 17]LogContentValidation: Display: Validating World /Game/Levels/L_GridTest.L_GridTest
+[2022.07.16-07.59.07:691][230]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.07.16-07.59.07:696][230]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.16-07.59.07:696][230]PIE: New page: PIE session: L_GridTest (16 jul. 2022 11:59:07)
+[2022.07.16-07.59.07:696][230]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_GridTest
+[2022.07.16-07.59.07:698][230]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002358s)
+[2022.07.16-07.59.07:699][230]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_GridTest.L_GridTest to /Game/Levels/UEDPIE_0_L_GridTest.L_GridTest (0.002448s)
+[2022.07.16-07.59.07:699][230]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.07.16-07.59.07:699][230]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.07.16-07.59.07:699][230]LogAIModule: Creating AISystem for world L_GridTest
+[2022.07.16-07.59.07:699][230]LogPlayLevel: PIE: World Init took: (0.000807s)
+[2022.07.16-07.59.07:751][230]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2022.07.16-07.59.07:754][230]LogAudio: Display: Creating Audio Device:                 Id: 30, Scope: Unique, Realtime: True
+[2022.07.16-07.59.07:754][230]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.07.16-07.59.07:754][230]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.07.16-07.59.07:754][230]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.07.16-07.59.07:754][230]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.07.16-07.59.07:754][230]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.07.16-07.59.07:754][230]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.07.16-07.59.07:754][230]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.07.16-07.59.07:754][230]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.07.16-07.59.07:754][230]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.07.16-07.59.07:754][230]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.07.16-07.59.07:754][230]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.07.16-07.59.07:755][230]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.07.16-07.59.07:863][230]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.07.16-07.59.07:864][230]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.07.16-07.59.07:864][230]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.07.16-07.59.07:864][230]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.07.16-07.59.07:864][230]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=30
+[2022.07.16-07.59.07:864][230]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=30
+[2022.07.16-07.59.07:866][230]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=30
+[2022.07.16-07.59.07:866][230]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=30
+[2022.07.16-07.59.07:866][230]LogInit: FAudioDevice initialized.
+[2022.07.16-07.59.07:866][230]LogAudio: Display: Audio Device (ID: 30) registered with world 'L_GridTest'.
+[2022.07.16-07.59.07:879][230]LogLoad: Game class is 'BP_GameplayGamemode_C'
+[2022.07.16-07.59.07:879][230]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_GridTest.L_GridTest up for play (max tick rate 60) at 2022.07.16-09.59.07
+[2022.07.16-07.59.07:879][230]LogWorld: Bringing up level for play took: 0.000508
+[2022.07.16-07.59.07:881][230]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2022.07.16-07.59.07:913][230]PIE: Server logged in
+[2022.07.16-07.59.07:914][230]PIE: Play in editor total start time 0,218 seconds.
+[2022.07.16-07.59.19:192][901]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.16-07.59.19:192][901]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_GridTest
+[2022.07.16-07.59.19:192][901]LogWorld: UWorld::CleanupWorld for L_GridTest, bSessionEnded=true, bCleanupResources=true
+[2022.07.16-07.59.19:193][901]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.16-07.59.19:200][901]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.16-07.59.19:207][901]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.16-07.59.19:258][901]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.07.16-07.59.19:258][901]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2022.07.16-07.59.19:259][901]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2022.07.16-07.59.19:267][901]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.16-07.59.19:270][901]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2022.07.16-07.59.19:304][902]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2022.07.16-07.59.29:373][501]BlueprintLog: New page: Compile L_GridTest
+[2022.07.16-07.59.29:459][501]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2022.07.16-07.59.29:582][501]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2022.07.16-07.59.29:594][501]LogSavePackage: Moving output files for package: /Game/Levels/L_GridTest
+[2022.07.16-07.59.29:595][501]LogSavePackage: Moving '../../../../../Users/Kitty/Desktop/SwagteamGMTK2022/GameJamGame2022/Saved/L_GridTest4529A696433154882D2E639F1C240C9D.tmp' to '../../../../../Users/Kitty/Desktop/SwagteamGMTK2022/GameJamGame2022/Content/Levels/L_GridTest.umap'
+[2022.07.16-07.59.29:605][501]LogFileHelpers: No new changes to save!
+[2022.07.16-07.59.29:605][501]LogFileHelpers: Saving map 'L_GridTest' took 0.077
+[2022.07.16-07.59.29:618][501]AssetCheck: New page: Asset Save: L_GridTest
+[2022.07.16-07.59.29:618][501]LogContentValidation: Display: Validating World /Game/Levels/L_GridTest.L_GridTest
+[2022.07.16-07.59.31:059][586]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.07.16-07.59.31:064][586]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.16-07.59.31:064][586]PIE: New page: PIE session: L_GridTest (16 jul. 2022 11:59:31)
+[2022.07.16-07.59.31:064][586]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_GridTest
+[2022.07.16-07.59.31:067][586]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002054s)
+[2022.07.16-07.59.31:067][586]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_GridTest.L_GridTest to /Game/Levels/UEDPIE_0_L_GridTest.L_GridTest (0.002122s)
+[2022.07.16-07.59.31:067][586]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.07.16-07.59.31:067][586]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.07.16-07.59.31:067][586]LogAIModule: Creating AISystem for world L_GridTest
+[2022.07.16-07.59.31:067][586]LogPlayLevel: PIE: World Init took: (0.000670s)
+[2022.07.16-07.59.31:121][586]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2022.07.16-07.59.31:122][586]LogAudio: Display: Creating Audio Device:                 Id: 31, Scope: Unique, Realtime: True
+[2022.07.16-07.59.31:122][586]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.07.16-07.59.31:122][586]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.07.16-07.59.31:122][586]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.07.16-07.59.31:122][586]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.07.16-07.59.31:122][586]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.07.16-07.59.31:122][586]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.07.16-07.59.31:122][586]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.07.16-07.59.31:122][586]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.07.16-07.59.31:123][586]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.07.16-07.59.31:123][586]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.07.16-07.59.31:123][586]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.07.16-07.59.31:124][586]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.07.16-07.59.31:234][586]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.07.16-07.59.31:234][586]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.07.16-07.59.31:234][586]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.07.16-07.59.31:234][586]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.07.16-07.59.31:235][586]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=31
+[2022.07.16-07.59.31:235][586]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=31
+[2022.07.16-07.59.31:236][586]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=31
+[2022.07.16-07.59.31:236][586]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=31
+[2022.07.16-07.59.31:236][586]LogInit: FAudioDevice initialized.
+[2022.07.16-07.59.31:236][586]LogAudio: Display: Audio Device (ID: 31) registered with world 'L_GridTest'.
+[2022.07.16-07.59.31:247][586]LogLoad: Game class is 'BP_GameplayGamemode_C'
+[2022.07.16-07.59.31:248][586]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_GridTest.L_GridTest up for play (max tick rate 60) at 2022.07.16-09.59.31
+[2022.07.16-07.59.31:248][586]LogWorld: Bringing up level for play took: 0.000477
+[2022.07.16-07.59.31:249][586]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2022.07.16-07.59.31:284][586]PIE: Server logged in
+[2022.07.16-07.59.31:285][586]PIE: Play in editor total start time 0,22 seconds.
+[2022.07.16-07.59.50:162][714]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.16-07.59.50:162][714]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_GridTest
+[2022.07.16-07.59.50:162][714]LogWorld: UWorld::CleanupWorld for L_GridTest, bSessionEnded=true, bCleanupResources=true
+[2022.07.16-07.59.50:163][714]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.16-07.59.50:175][714]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.16-07.59.50:182][714]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.16-07.59.50:237][714]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.16-07.59.50:237][714]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31
+[2022.07.16-07.59.50:239][714]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31
+[2022.07.16-07.59.50:251][714]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2022.07.16-07.59.50:286][715]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2022.07.16-08.00.28:763][407]BlueprintLog: New page: Compile BP_Grid
+[2022.07.16-08.00.28:875][407]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2022.07.16-08.00.28:936][407]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Grid/BP_Grid" FILE="../../../../../Users/Kitty/Desktop/SwagteamGMTK2022/GameJamGame2022/Content/Blueprints/Grid/BP_Grid.uasset" SILENT=true
+[2022.07.16-08.00.28:959][407]LogSavePackage: Moving output files for package: /Game/Blueprints/Grid/BP_Grid
+[2022.07.16-08.00.28:960][407]LogSavePackage: Moving '../../../../../Users/Kitty/Desktop/SwagteamGMTK2022/GameJamGame2022/Saved/BP_GridFD7E5A60410F84B4F07864874799952F.tmp' to '../../../../../Users/Kitty/Desktop/SwagteamGMTK2022/GameJamGame2022/Content/Blueprints/Grid/BP_Grid.uasset'
+[2022.07.16-08.00.28:975][407]AssetCheck: New page: Asset Save: BP_Grid
+[2022.07.16-08.00.28:975][407]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Grid/BP_Grid.BP_Grid
+[2022.07.16-08.00.53:557][869]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2022.07.16-08.00.53:568][869]LogSavePackage: Moving output files for package: /Game/Levels/L_GridTest
+[2022.07.16-08.00.53:569][869]LogSavePackage: Moving '../../../../../Users/Kitty/Desktop/SwagteamGMTK2022/GameJamGame2022/Saved/L_GridTest892D29BE443FA4B283EE46BF9CB11F5F.tmp' to '../../../../../Users/Kitty/Desktop/SwagteamGMTK2022/GameJamGame2022/Content/Levels/L_GridTest.umap'
+[2022.07.16-08.00.53:579][869]LogFileHelpers: No new changes to save!
+[2022.07.16-08.00.53:592][869]AssetCheck: New page: Asset Save: L_GridTest
+[2022.07.16-08.00.53:592][869]LogContentValidation: Display: Validating World /Game/Levels/L_GridTest.L_GridTest
+[2022.07.16-08.00.59:586][220]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2022.07.16-08.00.59:597][220]LogSavePackage: Moving output files for package: /Game/Levels/L_GridTest
+[2022.07.16-08.00.59:598][220]LogSavePackage: Moving '../../../../../Users/Kitty/Desktop/SwagteamGMTK2022/GameJamGame2022/Saved/L_GridTestA4FED2134553A890DB8AB2ABD7BF1630.tmp' to '../../../../../Users/Kitty/Desktop/SwagteamGMTK2022/GameJamGame2022/Content/Levels/L_GridTest.umap'
+[2022.07.16-08.00.59:607][220]LogFileHelpers: No new changes to save!
+[2022.07.16-08.00.59:607][220]LogFileHelpers: Saving map 'L_GridTest' took 0.074
+[2022.07.16-08.00.59:621][220]AssetCheck: New page: Asset Save: L_GridTest
+[2022.07.16-08.00.59:621][220]LogContentValidation: Display: Validating World /Game/Levels/L_GridTest.L_GridTest
+[2022.07.16-08.00.59:913][238]BlueprintLog: New page: Compile L_GridTest
+[2022.07.16-08.00.59:991][238]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2022.07.16-08.01.00:101][238]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2022.07.16-08.01.00:113][238]LogSavePackage: Moving output files for package: /Game/Levels/L_GridTest
+[2022.07.16-08.01.00:113][238]LogSavePackage: Moving '../../../../../Users/Kitty/Desktop/SwagteamGMTK2022/GameJamGame2022/Saved/L_GridTestC744C734418A84A9A363D1A972A0A7D8.tmp' to '../../../../../Users/Kitty/Desktop/SwagteamGMTK2022/GameJamGame2022/Content/Levels/L_GridTest.umap'
+[2022.07.16-08.01.00:124][238]LogFileHelpers: No new changes to save!
+[2022.07.16-08.01.00:124][238]LogFileHelpers: Saving map 'L_GridTest' took 0.078
+[2022.07.16-08.01.00:138][238]AssetCheck: New page: Asset Save: L_GridTest
+[2022.07.16-08.01.00:138][238]LogContentValidation: Display: Validating World /Game/Levels/L_GridTest.L_GridTest
+[2022.07.16-08.01.04:500][490]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.07.16-08.01.04:505][490]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.16-08.01.04:506][490]PIE: New page: PIE session: L_GridTest (16 jul. 2022 12:01:04)
+[2022.07.16-08.01.04:506][490]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_GridTest
+[2022.07.16-08.01.04:508][490]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002048s)
+[2022.07.16-08.01.04:508][490]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_GridTest.L_GridTest to /Game/Levels/UEDPIE_0_L_GridTest.L_GridTest (0.002117s)
+[2022.07.16-08.01.04:508][490]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.07.16-08.01.04:508][490]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.07.16-08.01.04:508][490]LogAIModule: Creating AISystem for world L_GridTest
+[2022.07.16-08.01.04:508][490]LogPlayLevel: PIE: World Init took: (0.000626s)
+[2022.07.16-08.01.04:562][490]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2022.07.16-08.01.04:563][490]LogAudio: Display: Creating Audio Device:                 Id: 32, Scope: Unique, Realtime: True
+[2022.07.16-08.01.04:564][490]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.07.16-08.01.04:564][490]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.07.16-08.01.04:564][490]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.07.16-08.01.04:564][490]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.07.16-08.01.04:564][490]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.07.16-08.01.04:564][490]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.07.16-08.01.04:564][490]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.07.16-08.01.04:564][490]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.07.16-08.01.04:564][490]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.07.16-08.01.04:564][490]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.07.16-08.01.04:564][490]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.07.16-08.01.04:566][490]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.07.16-08.01.04:671][490]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.07.16-08.01.04:672][490]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.07.16-08.01.04:672][490]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.07.16-08.01.04:672][490]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.07.16-08.01.04:673][490]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=32
+[2022.07.16-08.01.04:673][490]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=32
+[2022.07.16-08.01.04:674][490]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=32
+[2022.07.16-08.01.04:674][490]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=32
+[2022.07.16-08.01.04:674][490]LogInit: FAudioDevice initialized.
+[2022.07.16-08.01.04:674][490]LogAudio: Display: Audio Device (ID: 32) registered with world 'L_GridTest'.
+[2022.07.16-08.01.04:683][490]LogLoad: Game class is 'BP_GameplayGamemode_C'
+[2022.07.16-08.01.04:684][490]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_GridTest.L_GridTest up for play (max tick rate 60) at 2022.07.16-10.01.04
+[2022.07.16-08.01.04:684][490]LogWorld: Bringing up level for play took: 0.000600
+[2022.07.16-08.01.04:686][490]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2022.07.16-08.01.04:718][490]PIE: Server logged in
+[2022.07.16-08.01.04:718][490]PIE: Play in editor total start time 0,213 seconds.
+[2022.07.16-08.01.04:719][490]LogBlueprintUserMessages: [BP_Grid_C_1] The Provided grid position does not exsist
+[2022.07.16-08.01.07:921][677]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.16-08.01.07:922][677]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_GridTest
+[2022.07.16-08.01.07:922][677]LogWorld: UWorld::CleanupWorld for L_GridTest, bSessionEnded=true, bCleanupResources=true
+[2022.07.16-08.01.07:922][677]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.16-08.01.07:935][677]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.16-08.01.07:940][677]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.16-08.01.07:991][677]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.16-08.01.07:992][677]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32
+[2022.07.16-08.01.07:993][677]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32
+[2022.07.16-08.01.08:001][677]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2022.07.16-08.01.08:036][678]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2022.07.16-08.01.35:387][303]BlueprintLog: New page: Compile BP_Grid
+[2022.07.16-08.01.35:493][303]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2022.07.16-08.01.35:561][303]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Grid/BP_Grid" FILE="../../../../../Users/Kitty/Desktop/SwagteamGMTK2022/GameJamGame2022/Content/Blueprints/Grid/BP_Grid.uasset" SILENT=true
+[2022.07.16-08.01.35:583][303]LogSavePackage: Moving output files for package: /Game/Blueprints/Grid/BP_Grid
+[2022.07.16-08.01.35:584][303]LogSavePackage: Moving '../../../../../Users/Kitty/Desktop/SwagteamGMTK2022/GameJamGame2022/Saved/BP_Grid7A64063B4056FC677F5A648A3C11E51E.tmp' to '../../../../../Users/Kitty/Desktop/SwagteamGMTK2022/GameJamGame2022/Content/Blueprints/Grid/BP_Grid.uasset'
+[2022.07.16-08.01.35:599][303]AssetCheck: New page: Asset Save: BP_Grid
+[2022.07.16-08.01.35:599][303]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Grid/BP_Grid.BP_Grid
+[2022.07.16-08.01.41:796][672]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.07.16-08.01.41:802][672]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.16-08.01.41:802][672]PIE: New page: PIE session: L_GridTest (16 jul. 2022 12:01:41)
+[2022.07.16-08.01.41:802][672]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_GridTest
+[2022.07.16-08.01.41:805][672]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002242s)
+[2022.07.16-08.01.41:805][672]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_GridTest.L_GridTest to /Game/Levels/UEDPIE_0_L_GridTest.L_GridTest (0.002315s)
+[2022.07.16-08.01.41:805][672]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.07.16-08.01.41:805][672]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.07.16-08.01.41:805][672]LogAIModule: Creating AISystem for world L_GridTest
+[2022.07.16-08.01.41:805][672]LogPlayLevel: PIE: World Init took: (0.000662s)
+[2022.07.16-08.01.41:859][672]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2022.07.16-08.01.41:861][672]LogAudio: Display: Creating Audio Device:                 Id: 33, Scope: Unique, Realtime: True
+[2022.07.16-08.01.41:861][672]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.07.16-08.01.41:861][672]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.07.16-08.01.41:861][672]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.07.16-08.01.41:861][672]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.07.16-08.01.41:861][672]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.07.16-08.01.41:861][672]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.07.16-08.01.41:861][672]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.07.16-08.01.41:861][672]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.07.16-08.01.41:862][672]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.07.16-08.01.41:862][672]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.07.16-08.01.41:862][672]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.07.16-08.01.41:863][672]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.07.16-08.01.41:970][672]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.07.16-08.01.41:971][672]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.07.16-08.01.41:971][672]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.07.16-08.01.41:971][672]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.07.16-08.01.41:972][672]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=33
+[2022.07.16-08.01.41:972][672]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=33
+[2022.07.16-08.01.41:973][672]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=33
+[2022.07.16-08.01.41:973][672]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=33
+[2022.07.16-08.01.41:973][672]LogInit: FAudioDevice initialized.
+[2022.07.16-08.01.41:973][672]LogAudio: Display: Audio Device (ID: 33) registered with world 'L_GridTest'.
+[2022.07.16-08.01.41:984][672]LogLoad: Game class is 'BP_GameplayGamemode_C'
+[2022.07.16-08.01.41:985][672]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_GridTest.L_GridTest up for play (max tick rate 60) at 2022.07.16-10.01.41
+[2022.07.16-08.01.41:985][672]LogWorld: Bringing up level for play took: 0.000475
+[2022.07.16-08.01.41:986][672]LogOnline: OSS: Created online subsystem instance for: :Context_40
+[2022.07.16-08.01.42:017][672]PIE: Server logged in
+[2022.07.16-08.01.42:018][672]PIE: Play in editor total start time 0,216 seconds.
+[2022.07.16-08.01.42:019][672]LogBlueprintUserMessages: [BP_Grid_C_1] The Provided grid position does not exsist
+[2022.07.16-08.01.52:132][270]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.16-08.01.52:132][270]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_GridTest
+[2022.07.16-08.01.52:132][270]LogWorld: UWorld::CleanupWorld for L_GridTest, bSessionEnded=true, bCleanupResources=true
+[2022.07.16-08.01.52:132][270]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.16-08.01.52:140][270]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.16-08.01.52:145][270]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.16-08.01.52:198][270]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.07.16-08.01.52:198][270]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2022.07.16-08.01.52:199][270]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2022.07.16-08.01.52:207][270]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.16-08.01.52:210][270]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2022.07.16-08.01.52:234][271]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2022.07.16-08.02.09:189][284]BlueprintLog: New page: Compile BP_Grid
+[2022.07.16-08.02.09:297][284]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2022.07.16-08.02.09:363][284]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Grid/BP_Grid" FILE="../../../../../Users/Kitty/Desktop/SwagteamGMTK2022/GameJamGame2022/Content/Blueprints/Grid/BP_Grid.uasset" SILENT=true
+[2022.07.16-08.02.09:389][284]LogSavePackage: Moving output files for package: /Game/Blueprints/Grid/BP_Grid
+[2022.07.16-08.02.09:390][284]LogSavePackage: Moving '../../../../../Users/Kitty/Desktop/SwagteamGMTK2022/GameJamGame2022/Saved/BP_Grid2844576F4AAC945124B5D1A17430FDDC.tmp' to '../../../../../Users/Kitty/Desktop/SwagteamGMTK2022/GameJamGame2022/Content/Blueprints/Grid/BP_Grid.uasset'
+[2022.07.16-08.02.09:406][284]AssetCheck: New page: Asset Save: BP_Grid
+[2022.07.16-08.02.09:406][284]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Grid/BP_Grid.BP_Grid
+[2022.07.16-08.02.22:278][566]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.07.16-08.02.22:284][566]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.16-08.02.22:284][566]PIE: New page: PIE session: L_GridTest (16 jul. 2022 12:02:22)
+[2022.07.16-08.02.22:284][566]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_GridTest
+[2022.07.16-08.02.22:286][566]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002164s)
+[2022.07.16-08.02.22:286][566]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_GridTest.L_GridTest to /Game/Levels/UEDPIE_0_L_GridTest.L_GridTest (0.002267s)
+[2022.07.16-08.02.22:286][566]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.07.16-08.02.22:286][566]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.07.16-08.02.22:287][566]LogAIModule: Creating AISystem for world L_GridTest
+[2022.07.16-08.02.22:287][566]LogPlayLevel: PIE: World Init took: (0.000657s)
+[2022.07.16-08.02.22:340][566]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2022.07.16-08.02.22:342][566]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2022.07.16-08.02.22:342][566]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.07.16-08.02.22:342][566]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.07.16-08.02.22:342][566]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.07.16-08.02.22:342][566]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.07.16-08.02.22:342][566]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.07.16-08.02.22:342][566]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.07.16-08.02.22:342][566]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.07.16-08.02.22:342][566]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.07.16-08.02.22:342][566]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.07.16-08.02.22:342][566]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.07.16-08.02.22:342][566]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.07.16-08.02.22:344][566]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.07.16-08.02.22:454][566]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.07.16-08.02.22:455][566]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.07.16-08.02.22:455][566]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.07.16-08.02.22:455][566]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.07.16-08.02.22:456][566]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=34
+[2022.07.16-08.02.22:456][566]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=34
+[2022.07.16-08.02.22:457][566]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=34
+[2022.07.16-08.02.22:457][566]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=34
+[2022.07.16-08.02.22:457][566]LogInit: FAudioDevice initialized.
+[2022.07.16-08.02.22:457][566]LogAudio: Display: Audio Device (ID: 34) registered with world 'L_GridTest'.
+[2022.07.16-08.02.22:471][566]LogLoad: Game class is 'BP_GameplayGamemode_C'
+[2022.07.16-08.02.22:471][566]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_GridTest.L_GridTest up for play (max tick rate 60) at 2022.07.16-10.02.22
+[2022.07.16-08.02.22:472][566]LogWorld: Bringing up level for play took: 0.000498
+[2022.07.16-08.02.22:473][566]LogOnline: OSS: Created online subsystem instance for: :Context_41
+[2022.07.16-08.02.22:505][566]PIE: Server logged in
+[2022.07.16-08.02.22:506][566]PIE: Play in editor total start time 0,223 seconds.
+[2022.07.16-08.02.22:507][566]LogBlueprintUserMessages: [BP_Grid_C_1] The Provided grid position does not exist
+[2022.07.16-08.02.26:272][784]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.16-08.02.26:272][784]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_GridTest
+[2022.07.16-08.02.26:272][784]LogWorld: UWorld::CleanupWorld for L_GridTest, bSessionEnded=true, bCleanupResources=true
+[2022.07.16-08.02.26:273][784]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.16-08.02.26:281][784]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.16-08.02.26:286][784]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.16-08.02.26:338][784]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.07.16-08.02.26:339][784]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2022.07.16-08.02.26:340][784]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2022.07.16-08.02.26:345][784]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.16-08.02.26:349][784]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2022.07.16-08.02.26:373][785]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2022.07.16-08.02.34:484][266]BlueprintLog: New page: Compile L_GridTest
+[2022.07.16-08.02.34:556][266]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2022.07.16-08.02.34:666][266]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2022.07.16-08.02.34:678][266]LogSavePackage: Moving output files for package: /Game/Levels/L_GridTest
+[2022.07.16-08.02.34:679][266]LogSavePackage: Moving '../../../../../Users/Kitty/Desktop/SwagteamGMTK2022/GameJamGame2022/Saved/L_GridTest3C734B274561A5BAD20453860ED99FFD.tmp' to '../../../../../Users/Kitty/Desktop/SwagteamGMTK2022/GameJamGame2022/Content/Levels/L_GridTest.umap'
+[2022.07.16-08.02.34:689][266]LogFileHelpers: No new changes to save!
+[2022.07.16-08.02.34:689][266]LogFileHelpers: Saving map 'L_GridTest' took 0.078
+[2022.07.16-08.02.34:702][266]AssetCheck: New page: Asset Save: L_GridTest
+[2022.07.16-08.02.34:702][266]LogContentValidation: Display: Validating World /Game/Levels/L_GridTest.L_GridTest
+[2022.07.16-08.02.35:510][308]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2022.07.16-08.02.35:523][308]LogSavePackage: Moving output files for package: /Game/Levels/L_GridTest
+[2022.07.16-08.02.35:524][308]LogSavePackage: Moving '../../../../../Users/Kitty/Desktop/SwagteamGMTK2022/GameJamGame2022/Saved/L_GridTest9399BBD546E93282CB147FBAEF979E53.tmp' to '../../../../../Users/Kitty/Desktop/SwagteamGMTK2022/GameJamGame2022/Content/Levels/L_GridTest.umap'
+[2022.07.16-08.02.35:536][308]LogFileHelpers: No new changes to save!
+[2022.07.16-08.02.35:536][308]LogFileHelpers: Saving map 'L_GridTest' took 0.079
+[2022.07.16-08.02.35:551][308]AssetCheck: New page: Asset Save: L_GridTest
+[2022.07.16-08.02.35:551][308]LogContentValidation: Display: Validating World /Game/Levels/L_GridTest.L_GridTest
+[2022.07.16-08.02.36:567][368]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.07.16-08.02.36:572][368]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.16-08.02.36:572][368]PIE: New page: PIE session: L_GridTest (16 jul. 2022 12:02:36)
+[2022.07.16-08.02.36:572][368]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_L_GridTest
+[2022.07.16-08.02.36:574][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002055s)
+[2022.07.16-08.02.36:574][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/L_GridTest.L_GridTest to /Game/Levels/UEDPIE_0_L_GridTest.L_GridTest (0.002143s)
+[2022.07.16-08.02.36:574][368]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.07.16-08.02.36:574][368]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.07.16-08.02.36:575][368]LogAIModule: Creating AISystem for world L_GridTest
+[2022.07.16-08.02.36:575][368]LogPlayLevel: PIE: World Init took: (0.000839s)
+[2022.07.16-08.02.36:628][368]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2022.07.16-08.02.36:630][368]LogAudio: Display: Creating Audio Device:                 Id: 35, Scope: Unique, Realtime: True
+[2022.07.16-08.02.36:630][368]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.07.16-08.02.36:630][368]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.07.16-08.02.36:630][368]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.07.16-08.02.36:630][368]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.07.16-08.02.36:630][368]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.07.16-08.02.36:630][368]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.07.16-08.02.36:630][368]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.07.16-08.02.36:630][368]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.07.16-08.02.36:630][368]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.07.16-08.02.36:630][368]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.07.16-08.02.36:630][368]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.07.16-08.02.36:632][368]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.07.16-08.02.36:735][368]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.07.16-08.02.36:736][368]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.07.16-08.02.36:736][368]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.07.16-08.02.36:736][368]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.07.16-08.02.36:737][368]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=35
+[2022.07.16-08.02.36:737][368]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=35
+[2022.07.16-08.02.36:738][368]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=35
+[2022.07.16-08.02.36:738][368]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=35
+[2022.07.16-08.02.36:738][368]LogInit: FAudioDevice initialized.
+[2022.07.16-08.02.36:738][368]LogAudio: Display: Audio Device (ID: 35) registered with world 'L_GridTest'.
+[2022.07.16-08.02.36:753][368]LogLoad: Game class is 'BP_GameplayGamemode_C'
+[2022.07.16-08.02.36:753][368]LogWorld: Bringing World /Game/Levels/UEDPIE_0_L_GridTest.L_GridTest up for play (max tick rate 60) at 2022.07.16-10.02.36
+[2022.07.16-08.02.36:754][368]LogWorld: Bringing up level for play took: 0.000618
+[2022.07.16-08.02.36:755][368]LogOnline: OSS: Created online subsystem instance for: :Context_42
+[2022.07.16-08.02.36:790][368]PIE: Server logged in
+[2022.07.16-08.02.36:790][368]PIE: Play in editor total start time 0,219 seconds.
+[2022.07.16-08.05.29:941][732]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.16-08.05.29:941][732]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_L_GridTest
+[2022.07.16-08.05.29:942][732]LogWorld: UWorld::CleanupWorld for L_GridTest, bSessionEnded=true, bCleanupResources=true
+[2022.07.16-08.05.29:943][732]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.16-08.05.29:952][732]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.16-08.05.29:958][732]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.16-08.05.30:010][732]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.16-08.05.30:010][732]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2022.07.16-08.05.30:011][732]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2022.07.16-08.05.30:020][732]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2022.07.16-08.05.30:044][733]LogPlayLevel: Display: Destroying online subsystem :Context_42
